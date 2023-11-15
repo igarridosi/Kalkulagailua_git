@@ -26,6 +26,8 @@ public class Kalkulagailua {
                 guztira = zenbakia1 + zenbakia2;
             }else if (eragiketa == 2) {
                 guztira = zenbakia1 - zenbakia2;
+            }else if (eragiketa == 3) {
+                guztira = zenbakia1 * zenbakia2;
             }
             System.out.println("Erantzuna: " + guztira);
     }
