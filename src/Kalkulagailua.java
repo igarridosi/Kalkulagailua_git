@@ -40,6 +40,9 @@ public class Kalkulagailua {
             else if (eragiketa == 6) {
                 guztira = zenbakia1 % zenbakia2;
             }
+
+                //GITHUBETIK ALDAKETA EGIN
+                System.out.println("Zuk aukeratu duzun eragiketarekin hau da erantzuna.S")
             //Erantzuna inprimitu
             System.out.println("Erantzuna: " + guztira);
     }
