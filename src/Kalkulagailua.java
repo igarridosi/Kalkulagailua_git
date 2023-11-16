@@ -28,12 +28,14 @@ public class Kalkulagailua {
                 guztira = zenbakia1 - zenbakia2;
             }else if (eragiketa == 3) {
                 guztira = zenbakia1 * zenbakia2;
-            }
-            else if (eragiketa == 4) {
+            } else if (eragiketa == 4) {
                 if (zenbakia1 == 0 || zenbakia2 == 0) {
                     System.out.println("Ezin da zati 0 egin");
                     System.exit(0);
                 }
+            } else if (eragiketa == 5) {
+                guztira = Math.pow(zenbakia1, zenbakia2);
+                guztira = zenbakia1 / zenbakia2;
             }
             //Erantzuna inprimitu
             System.out.println("Erantzuna: " + guztira);
