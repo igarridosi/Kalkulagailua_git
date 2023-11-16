@@ -37,6 +37,9 @@ public class Kalkulagailua {
                 guztira = Math.pow(zenbakia1, zenbakia2);
                 guztira = zenbakia1 / zenbakia2;
             }
+            else if (eragiketa == 6) {
+                guztira = zenbakia1 % zenbakia2;
+            }
             //Erantzuna inprimitu
             System.out.println("Erantzuna: " + guztira);
     }
